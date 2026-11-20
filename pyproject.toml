@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "byte-vllm"
+version = "0.3.0"
+authors = [{ name = "Xingkai Yu" }, { name = "anziaa" }]
+license = { text = "MIT" }
+readme = "README.md"
+description = "nano-vllm + weight-only int8, fp8 KV cache and speculative decoding"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch>=2.4.0",
+    "triton>=3.0.0",
+    "transformers>=4.51.0",
+    "flash-attn",
+    "xxhash",
+]
+
+[project.urls]
+Homepage = "https://github.com/anziaa/byte-vllm"
+Upstream = "https://github.com/GeeeekExplorer/nano-vllm"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nanovllm*"]

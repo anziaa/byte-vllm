@@ -1,0 +1,33 @@
+﻿ts,tag,mode,cfg,concurrency,prompt_len,max_tokens,ttft_s,latency_s,out_tok_s,prefill_tok_s,total_out_tokens,peak_mem_gb,num_kv_blocks,block_size,hit_blocks,lookup_blocks,note
+2026-11-12 18:54:49,cache_on,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0984,0.0984,,20820.6,1,5.6,161,256,0,8,cold (hit 0/8)
+2026-11-12 18:54:49,cache_on,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.048,0.048,,42687.8,1,5.6,161,256,8,8,warm1 (hit 8/8)
+2026-11-12 18:54:49,cache_on,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0422,0.0422,,48544.0,1,5.6,161,256,8,8,warm2 (hit 8/8)
+2026-11-12 18:54:49,cache_on,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0457,0.0457,,44827.7,1,5.6,161,256,8,8,warm3 (hit 8/8)
+2026-11-12 18:54:49,cache_on,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0442,0.0442,,46306.9,1,5.6,161,256,8,8,warm4 (hit 8/8)
+2026-11-12 18:55:08,cache_off,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0876,0.0876,,23377.6,1,5.6,161,256,0,8,cold (hit 0/8)
+2026-11-12 18:55:08,cache_off,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0834,0.0834,,24569.2,1,5.6,161,256,0,8,warm1 (hit 0/8)
+2026-11-12 18:55:08,cache_off,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.084,0.084,,24368.1,1,5.6,161,256,0,8,warm2 (hit 0/8)
+2026-11-12 18:55:08,cache_off,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0827,0.0827,,24756.8,1,5.6,161,256,0,8,warm3 (hit 0/8)
+2026-11-12 18:55:08,cache_off,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0816,0.0816,,25082.9,1,5.6,161,256,0,8,warm4 (hit 0/8)
+2026-11-12 18:56:32,cache_off_full,ttft,"{""enable_prefix_caching"": false}",1,512,1,0.0433,0.0433,,11811.2,1,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,ttft,"{""enable_prefix_caching"": false}",1,2048,1,0.0781,0.0781,,26213.7,1,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,ttft,"{""enable_prefix_caching"": false}",1,3584,1,0.1534,0.1534,,23362.3,1,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,throughput,"{""enable_prefix_caching"": false}",1,256,128,,0.9234,138.6,277.2,128,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,throughput,"{""enable_prefix_caching"": false}",8,256,128,,1.4342,714.0,1428.0,1024,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,throughput,"{""enable_prefix_caching"": false}",32,256,128,,1.8005,2274.9,4549.8,4096,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,throughput,"{""enable_prefix_caching"": false}",64,256,128,,2.7804,2946.4,5892.7,8192,5.99,161,256,,,
+2026-11-12 18:56:32,cache_off_full,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0851,0.0851,,24078.6,1,5.99,161,256,0,8,cold (hit 0/8)
+2026-11-12 18:56:32,cache_off_full,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0843,0.0843,,24282.7,1,5.99,161,256,0,8,warm1 (hit 0/8)
+2026-11-12 18:56:32,cache_off_full,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0841,0.0841,,24354.2,1,5.99,161,256,0,8,warm2 (hit 0/8)
+2026-11-12 18:56:32,cache_off_full,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0826,0.0826,,24786.6,1,5.99,161,256,0,8,warm3 (hit 0/8)
+2026-11-12 18:56:32,cache_off_full,shared,"{""enable_prefix_caching"": false}",1,2048,1,0.0831,0.0831,,24650.1,1,5.99,161,256,0,8,warm4 (hit 0/8)
+2026-11-12 18:57:08,cache_on_rep2,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.1018,0.1018,,20115.2,1,5.6,161,256,0,8,cold (hit 0/8)
+2026-11-12 18:57:08,cache_on_rep2,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0463,0.0463,,44249.2,1,5.6,161,256,8,8,warm1 (hit 8/8)
+2026-11-12 18:57:08,cache_on_rep2,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0393,0.0393,,52126.2,1,5.6,161,256,8,8,warm2 (hit 8/8)
+2026-11-12 18:57:08,cache_on_rep2,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0391,0.0391,,52442.3,1,5.6,161,256,8,8,warm3 (hit 8/8)
+2026-11-12 18:57:08,cache_on_rep2,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0384,0.0384,,53392.9,1,5.6,161,256,8,8,warm4 (hit 8/8)
+2026-11-12 19:00:28,cache_on_rep3,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0861,0.0861,,23792.4,1,5.6,161,256,0,8,cold (hit 0/8)
+2026-11-12 19:00:28,cache_on_rep3,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0564,0.0564,,36341.1,1,5.6,161,256,8,8,warm1 (hit 8/8)
+2026-11-12 19:00:28,cache_on_rep3,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0369,0.0369,,55550.0,1,5.6,161,256,8,8,warm2 (hit 8/8)
+2026-11-12 19:00:28,cache_on_rep3,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0362,0.0362,,56592.2,1,5.6,161,256,8,8,warm3 (hit 8/8)
+2026-11-12 19:00:28,cache_on_rep3,shared,"{""enable_prefix_caching"": true}",1,2048,1,0.0361,0.0361,,56699.2,1,5.6,161,256,8,8,warm4 (hit 8/8)

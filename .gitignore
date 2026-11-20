@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# 模型权重不入库
+models/
+
+# 大件中间产物（*.pt 数值 dump，可由脚本重跑）
+results/*.pt
+*.tar.gz
+
+# 语料原始文本（冻结后的 *.ids.json 才是权威输入）
+assets/corpus/_src/
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
